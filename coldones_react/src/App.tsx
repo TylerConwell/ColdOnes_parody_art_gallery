@@ -32,41 +32,67 @@ function App() {
       <div>
         <img src={beerju} alt="beerju coldones" />
         <h3>Beerju Poster</h3>
+        <p>
+          So, like from what I see its a beer and a big one at that. 
+          and its walking around distroying stuff.
+        </p>
       </div>
 
       <div>
         <img src={skull} alt="coldones org" />
         <h3>Cold Ones Skull Poster</h3>
+        <p>
+          Some kinda bottom text with a skull and a concrete dog.
+        </p>
       </div>
 
       <div>
         <img src={grape} alt="grog grape" />
         <h3>Grape Grog Poster</h3>
+        <p>
+          A lovey grape grop would hit pretty good right now.
+          Mmmmm.
+        </p>
       </div>
 
       <div>
         <img src={lemon} alt="grog lemonice" />
         <h3>Lemon Ice Grog Poster</h3>
+        <p>
+          Hold up is that a Lemon Ice Grog? Yea i'll take two.
+        </p>
       </div>
 
       <div>
         <img src={peeach} alt="grog peeach" />
         <h3>Peach Grog Poster</h3>
+        <p>
+          Wait wait wait your telling me they have Peach Grog now?
+        </p>
       </div>
 
       <div>
         <img src={chad} alt="japanese chad" />
         <h3>Japanese Chad Grog Poster</h3>
+        <p>
+          Some kinda old japanese theme for Chad from cold ones.
+        </p>
       </div>
 
       <div>
         <img src={max} alt="japanese max" />
         <h3>Japanese Max Grog Poster</h3>
+        <p>
+          Ah, now thats a classic old japanese stye max, or is that chinese style?
+        </p>
       </div>
 
       <div>
         <img src={mexicanMax} alt="max chuco" />
         <h3>Mexican Max Poster</h3>
+        <p>
+          Wait your telling me I can get this and like hang it up in my casa?
+        </p>
       </div>
     </>
   )
