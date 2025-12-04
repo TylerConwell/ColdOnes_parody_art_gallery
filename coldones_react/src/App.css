@@ -46,3 +46,15 @@
   text-align: center;
 }
 
+.spin {
+  animation: spinY 600ms ease-in-out;
+}
+
+@keyframes spinY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
