@@ -9,3 +9,31 @@
   padding: 2em;
 }
 
+
+/* Gallery layout: responsive grid that places items side-by-side */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.gallery-item {
+  padding: 0.5rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.gallery-item h3,
+.gallery-item p {
+  margin: 0.5rem 0 0;
+  text-align: center;
+}
+
