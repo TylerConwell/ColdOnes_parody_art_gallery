@@ -10,7 +10,32 @@ import mexicanMax from './assets/max_chuco_png.png'
 import './App.css'
 
 function App() {
+  // simple click counter for stimming, may add sound later
   const [count, setCount] = useState(0)
+
+  // state for spinning images on click, may make a dark version later
+  // state var. for spin which is a set with number (poster id) type in it
+  const [spin, setSpin] = useState<Set<number>>(new Set())
+
+  // event handling the click, for when the poster is clicked so it spins
+  // function controls the add/remove of the id in the set for spinning
+  const handleClick = (id: number) => {
+    setSpin((prevSpin) => {
+      // copy of previous spin set that gets modified and returned with the new
+      const next = new Set(prevSpin)
+      next.add(id) // add images index to spin set
+      return next
+    })
+  }
+
+  // stop spinning function, removes the id from the set
+  const stopSpin = (id: number) => {
+    setSpin((prevSpin) => {
+      const next = new Set(prevSpin)
+      next.delete(id) // remove images index from spin set
+      return next
+    })
+  }
 
   return (
     <>
