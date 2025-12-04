@@ -42,7 +42,7 @@ function App() {
         <img src={skull} alt="coldones org" />
         <h3>Cold Ones Skull Poster</h3>
         <p>
-          Some kinda bottom text with a skull and a concrete dog.
+          Some kinda bottom text with a skull and a concrete dog. What the dog doing?
         </p>
       </div>
 
