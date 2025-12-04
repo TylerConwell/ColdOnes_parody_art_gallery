@@ -33,8 +33,8 @@ function App() {
         <img src={beerju} alt="beerju coldones" />
         <h3>Beerju Poster</h3>
         <p>
-          So, like from what I see its a beer and a big one at that. 
-          and its walking around distroying stuff.
+          So, like from what I see its a beer and a big one at that,
+          and its walking around destroying stuff.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ function App() {
         <img src={chad} alt="japanese chad" />
         <h3>Japanese Chad Grog Poster</h3>
         <p>
-          Some kinda old japanese theme for Chad from cold ones.
+          Some kinda old japanese themed Chad from cold ones. JojiVlogs?
         </p>
       </div>
 
