@@ -3,7 +3,7 @@ import beerju from './assets/beerju coldones.png'
 import skull from './assets/coldones_org.png'
 import grape from './assets/grog_grape.png'
 import lemon from './assets/grog_lemonice.png'
-import peeach from './assets/grog_peach.png'
+import peach from './assets/grog_peach.png'
 import chad from './assets/japanese_chad.png'
 import max from './assets/japanese_max_png.png'
 import mexicanMax from './assets/max_chuco_png.png'
@@ -11,6 +11,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  
     // track which posters are currently animating (spinning)
     const [spinning, setSpinning] = useState<Set<number>>(new Set())
 
@@ -117,8 +118,8 @@ function App() {
 
         <div className="gallery-item">
           <img
-            src={peeach}
-            alt="grog peeach"
+            src={peach}
+            alt="grog peach"
             className={`poster ${spinning.has(4) ? 'spin' : ''}`}
             onClick={() => handleClick(4)}
             onAnimationEnd={() => handleAnimationEnd(4)}
