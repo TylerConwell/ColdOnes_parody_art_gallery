@@ -31,7 +31,7 @@ function App() {
   // stop spinning function, removes the id from the set
   const stopSpin = (id: number) => {
     setSpin((prevSpin) => {
-      const next = new Set(prevSpin)
+      const next = new Set(prevSpin) // copy of previous spin set
       next.delete(id) // remove images index from spin set
       return next
     })
@@ -56,7 +56,15 @@ function App() {
 
       <section className="gallery">
         <div className="gallery-item">
-          <img src={beerju} alt="beerju coldones" />
+
+          {/* first index for the id spinning */}
+          <img 
+            src={beerju} 
+            alt="beerju coldones" 
+            className={spin.has(0) ? 'spin' : ''}
+            onClick={() => handleClick(0)} // on click start spinning
+            onAnimationEnd={() => stopSpin(0)} // stop spinning
+          />
           <h3>Beerju Poster</h3>
           <p>
             So, like from what I see its a beer and a big one at that,
@@ -65,7 +73,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={skull} alt="coldones org" />
+          <img 
+            src={skull} 
+            alt="coldones org" 
+            className={spin.has(1) ? 'spin' : ''}
+            onClick={() => handleClick(1)} // on click start spinning
+            onAnimationEnd={() => stopSpin(1)} // stop spinning
+          />
           <h3>Cold Ones Skull Poster</h3>
           <p>
             Some kinda bottom text with a skull and a concrete dog. What the dog doing?
@@ -73,7 +87,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={grape} alt="grog grape" />
+          <img 
+            src={grape} 
+            alt="grog grape" 
+            className={spin.has(2) ? 'spin' : ''}
+            onClick={() => handleClick(2)} // on click start spinning
+            onAnimationEnd={() => stopSpin(2)} // stop spinning
+          />
           <h3>Grape Grog Poster</h3>
           <p>
             A lovey grape grop would hit pretty good right now.
@@ -82,7 +102,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={lemon} alt="grog lemonice" />
+          <img 
+            src={lemon} 
+            alt="grog lemonice" 
+            className={spin.has(3) ? 'spin' : ''}
+            onClick={() => handleClick(3)} // on click start spinning
+            onAnimationEnd={() => stopSpin(3)} // stop spinning
+          />
           <h3>Lemon Ice Grog Poster</h3>
           <p>
             Hold up is that a Lemon Ice Grog? Yea i'll take two.
@@ -90,7 +116,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={peeach} alt="grog peeach" />
+          <img 
+            src={peeach} 
+            alt="grog peeach" 
+            className={spin.has(4) ? 'spin' : ''}
+            onClick={() => handleClick(4)} // on click start spinning
+            onAnimationEnd={() => stopSpin(4)} // stop spinning
+          />
           <h3>Peach Grog Poster</h3>
           <p>
             Wait wait wait your telling me they have Peach Grog now?
@@ -98,7 +130,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={chad} alt="japanese chad" />
+          <img 
+            src={chad} 
+            alt="japanese chad" 
+            className={spin.has(5) ? 'spin' : ''}
+            onClick={() => handleClick(5)} // on click start spinning
+            onAnimationEnd={() => stopSpin(5)} // stop spinning
+          />
           <h3>Japanese Chad Grog Poster</h3>
           <p>
             Some kinda old japanese themed Chad from cold ones. JojiVlogs?
@@ -106,7 +144,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={max} alt="japanese max" />
+          <img 
+            src={max} 
+            alt="japanese max" 
+            className={spin.has(6) ? 'spin' : ''}
+            onClick={() => handleClick(6)} // on click start spinning
+            onAnimationEnd={() => stopSpin(6)} // stop spinning
+            />
           <h3>Japanese Max Grog Poster</h3>
           <p>
             Ah, now thats a classic old japanese stye max, or is that chinese style?
@@ -114,7 +158,13 @@ function App() {
         </div>
 
         <div className="gallery-item">
-          <img src={mexicanMax} alt="max chuco" />
+          <img 
+            src={mexicanMax} 
+            alt="max chuco" 
+            className={spin.has(7) ? 'spin' : ''}
+            onClick={() => handleClick(7)} // on click start spinning
+            onAnimationEnd={() => stopSpin(7)} // stop spinning
+            />
           <h3>Mexican Max Poster</h3>
           <p>
             Wait your telling me I can get this and like hang it up in my casa?
