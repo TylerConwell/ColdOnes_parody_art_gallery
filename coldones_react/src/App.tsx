@@ -61,7 +61,7 @@ function App() {
           <img 
             src={beerju} 
             alt="beerju coldones" 
-            className={spin.has(0) ? 'spin' : ''}
+            className={`poster ${spin.has(0) ? 'spin' : ''}`}
             onClick={() => handleClick(0)} // on click start spinning
             onAnimationEnd={() => stopSpin(0)} // stop spinning
           />
@@ -76,7 +76,7 @@ function App() {
           <img 
             src={skull} 
             alt="coldones org" 
-            className={spin.has(1) ? 'spin' : ''}
+            className={`poster ${spin.has(1) ? 'spin' : ''}`}
             onClick={() => handleClick(1)} // on click start spinning
             onAnimationEnd={() => stopSpin(1)} // stop spinning
           />
@@ -90,7 +90,7 @@ function App() {
           <img 
             src={grape} 
             alt="grog grape" 
-            className={spin.has(2) ? 'spin' : ''}
+            className={`poster ${spin.has(2) ? 'spin' : ''}`}
             onClick={() => handleClick(2)} // on click start spinning
             onAnimationEnd={() => stopSpin(2)} // stop spinning
           />
@@ -105,7 +105,7 @@ function App() {
           <img 
             src={lemon} 
             alt="grog lemonice" 
-            className={spin.has(3) ? 'spin' : ''}
+            className={`poster ${spin.has(3) ? 'spin' : ''}`}
             onClick={() => handleClick(3)} // on click start spinning
             onAnimationEnd={() => stopSpin(3)} // stop spinning
           />
@@ -119,7 +119,7 @@ function App() {
           <img 
             src={peeach} 
             alt="grog peeach" 
-            className={spin.has(4) ? 'spin' : ''}
+            className={`poster ${spin.has(4) ? 'spin' : ''}`}
             onClick={() => handleClick(4)} // on click start spinning
             onAnimationEnd={() => stopSpin(4)} // stop spinning
           />
@@ -133,7 +133,7 @@ function App() {
           <img 
             src={chad} 
             alt="japanese chad" 
-            className={spin.has(5) ? 'spin' : ''}
+            className={`poster ${spin.has(5) ? 'spin' : ''}`}
             onClick={() => handleClick(5)} // on click start spinning
             onAnimationEnd={() => stopSpin(5)} // stop spinning
           />
@@ -147,7 +147,7 @@ function App() {
           <img 
             src={max} 
             alt="japanese max" 
-            className={spin.has(6) ? 'spin' : ''}
+            className={`poster ${spin.has(6) ? 'spin' : ''}`}
             onClick={() => handleClick(6)} // on click start spinning
             onAnimationEnd={() => stopSpin(6)} // stop spinning
             />
@@ -161,7 +161,7 @@ function App() {
           <img 
             src={mexicanMax} 
             alt="max chuco" 
-            className={spin.has(7) ? 'spin' : ''}
+            className={`poster ${spin.has(7) ? 'spin' : ''}`}
             onClick={() => handleClick(7)} // on click start spinning
             onAnimationEnd={() => stopSpin(7)} // stop spinning
             />

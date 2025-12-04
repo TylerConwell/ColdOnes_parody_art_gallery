@@ -18,7 +18,16 @@
   align-items: start;
   margin-top: 1.5rem;
   text-align: left;
+  perspective: 1200px; /* for 3D effect */
 }
+
+.poster{
+  cursor: pointer;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
 
 .gallery-item {
   padding: 0.5rem;
