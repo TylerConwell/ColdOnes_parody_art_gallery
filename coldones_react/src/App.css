@@ -18,6 +18,7 @@
   align-items: start;
   margin-top: 1.5rem;
   text-align: left;
+  perspective: 1200px; /* enable 3D for children */
 }
 
 .gallery-item {
@@ -29,6 +30,26 @@
   height: auto;
   display: block;
   border-radius: 6px;
+}
+
+/* Poster specific styles (clickable + 3D spin) */
+.poster {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.spin {
+  animation: spinY 600ms ease-in-out;
+}
+
+@keyframes spinY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .gallery-item h3,
