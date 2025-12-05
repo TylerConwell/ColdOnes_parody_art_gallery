@@ -55,7 +55,7 @@ function App() {
       </div>
 
       <section className="gallery">
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
 
           {/* first index for the id spinning */}
           <img 
@@ -72,7 +72,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={skull} 
             alt="coldones org" 
@@ -86,7 +86,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={grape} 
             alt="grog grape" 
@@ -101,7 +101,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={lemon} 
             alt="grog lemonice" 
@@ -115,7 +115,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={peeach} 
             alt="grog peeach" 
@@ -129,7 +129,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={chad} 
             alt="japanese chad" 
@@ -143,7 +143,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={max} 
             alt="japanese max" 
@@ -157,7 +157,7 @@ function App() {
           </p>
         </div>
 
-        <div className="gallery-item">
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
             src={mexicanMax} 
             alt="max chuco" 
