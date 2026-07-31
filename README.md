@@ -30,9 +30,9 @@ Myself (Tyler)
 @TylerConwell (github)
 
 
-<img width="469" height="419" alt="image" src="https://github.com/user-attachments/assets/f9fd3f58-fb30-41c3-892a-2a5e00f088a1" />
+<img width="469" height="419" alt="image" src="https://github.com/user-attachments/assets/grog_1_screenshot" />
 
-<img width="467" height="353" alt="image" src="https://github.com/user-attachments/assets/70d681e3-0e29-4e6b-909e-2d38d5544aa1" />
+<img width="467" height="353" alt="image" src="https://github.com/user-attachments/assets/grog_2_screenshot" />
 
 
 Acknowledgments
