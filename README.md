@@ -30,9 +30,9 @@ Myself (Tyler)
 @TylerConwell (github)
 
 
-<img width="469" height="419" alt="image" src="https://github.com/user-attachments/assets/grog_1_screenshot" />
+<img width="469" height="419" alt="image" src="C:\Users\tyler\Downloads\art_gallery_for_coldones\ColdOnes_parody_art_gallery\coldones_react\src\assets\grog_1_screenshot.png" />
 
-<img width="467" height="353" alt="image" src="https://github.com/user-attachments/assets/grog_2_screenshot" />
+<img width="467" height="353" alt="image" src="C:\Users\tyler\Downloads\art_gallery_for_coldones\ColdOnes_parody_art_gallery\coldones_react\src\assets\grog_2_screenshot.png" />
 
 
 Acknowledgments
