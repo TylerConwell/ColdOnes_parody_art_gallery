@@ -3,10 +3,16 @@ import beerju from './assets/beerju coldones.png'
 import skull from './assets/coldones_org.png'
 import grape from './assets/grog_grape.png'
 import lemon from './assets/grog_lemonice.png'
-import peeach from './assets/grog_peach.png'
+import peach from './assets/grog_peach.png'
 import chad from './assets/japanese_chad.png'
 import max from './assets/japanese_max_png.png'
 import mexicanMax from './assets/max_chuco_png.png'
+import yogurt from './assets/yogurt_effect_png.png'
+import skeleton from './assets/skeleton_cold_ones.png'
+import puppermaster from './assets/darcy_puppetmaster.png'
+import hammered from './assets/hammered_bros.jpg'
+import hobbit from './assets/hobbit_coldones.png'
+
 import './App.css'
 
 function App() {
@@ -117,8 +123,8 @@ function App() {
 
         <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
           <img 
-            src={peeach} 
-            alt="grog peeach" 
+            src={peach} 
+            alt="grog peach" 
             className={`poster ${spin.has(4) ? 'spin' : ''}`}
             onClick={() => handleClick(4)} // on click start spinning
             onAnimationEnd={() => stopSpin(4)} // stop spinning
@@ -153,7 +159,7 @@ function App() {
             />
           <h3>Japanese Max Grog Poster</h3>
           <p>
-            Ah, now thats a classic old japanese stye max, or is that chinese style?
+            Ah, now thats a classic old japanese style max, or is that chinese style?
           </p>
         </div>
 
@@ -168,6 +174,86 @@ function App() {
           <h3>Mexican Max Poster</h3>
           <p>
             Wait your telling me I can get this and like hang it up in my casa?
+          </p>
+        </div>
+
+
+
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
+          <img 
+            src={yogurt} 
+            alt="yogurt effect" 
+            className={`poster ${spin.has(8) ? 'spin' : ''}`}
+            onClick={() => handleClick(8)} // on click start spinning
+            onAnimationEnd={() => stopSpin(8)} // stop spinning
+            />
+          <h3>Yogurt Effect Poster</h3>
+          <p>
+            Is that the yoguert effect? I heard if you use the right Sloe Gin...
+          </p>
+        </div>
+
+
+
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
+          <img 
+            src={skeleton} 
+            alt="skeleton" 
+            className={`poster ${spin.has(9) ? 'spin' : ''}`}
+            onClick={() => handleClick(9)} // on click start spinning
+            onAnimationEnd={() => stopSpin(9)} // stop spinning
+            />
+          <h3>Hard Skeleton Poster</h3>
+          <p>
+            I feel like this is just a hard poster of two legends. Enough said.
+          </p>
+        </div>
+
+
+        
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
+          <img 
+            src={puppermaster} 
+            alt="Darcy pupper master" 
+            className={`poster ${spin.has(10) ? 'spin' : ''}`}
+            onClick={() => handleClick(10)} // on click start spinning
+            onAnimationEnd={() => stopSpin(10)} // stop spinning
+            />
+          <h3>Darcy Pupper Master Poster</h3>
+          <p>
+            See I always knew that guy was the master of the show, and look at how smug he is up there.
+          </p>
+        </div>
+
+
+        
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
+          <img 
+            src={hammered} 
+            alt="thats the hammered effect" 
+            className={`poster ${spin.has(11) ? 'spin' : ''}`}
+            onClick={() => handleClick(11)} // on click start spinning
+            onAnimationEnd={() => stopSpin(11)} // stop spinning
+            />
+          <h3>Hammered Effect Poster</h3>
+          <p>
+            Hammer? I hardly know her man. More like ham on my burger gawd damn.
+          </p>
+        </div>
+
+
+
+        <div className="gallery-item hover:shadow-lg hover:shadow-blue-500">
+          <img 
+            src={hobbit} 
+            alt="hobbit" 
+            className={`poster ${spin.has(12) ? 'spin' : ''}`}
+            onClick={() => handleClick(12)} // on click start spinning
+            onAnimationEnd={() => stopSpin(12)} // stop spinning
+            />
+          <h3>Hobbit Poster</h3>
+          <p>
+            I know Chad would be a good hobbit, but Max im not sure man, bros definitely using that palantir.
           </p>
         </div>
       </section>
