@@ -37,7 +37,7 @@ To run the program in development mode:  npm run dev
 Myself (Tyler)
 @TylerConwell (github)
 
-
+## Pictures of site
 <img width="469" height="419" alt="image" src="https://github.com/TylerConwell/ColdOnes_parody_art_gallery/blob/main/coldones_react/src/assets/grog_1_screenshot.png" />
 
 <img width="467" height="353" alt="image" src="https://github.com/TylerConwell/ColdOnes_parody_art_gallery/blob/main/coldones_react/src/assets/grog_2_screenshot.png" />
